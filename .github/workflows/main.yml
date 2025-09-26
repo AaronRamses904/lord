@@ -1,0 +1,12 @@
+on:
+    push:
+jobs:
+    test:
+        runs-on: ubuntu-lastest
+
+        steps:
+            - uses: actions/checkout@v4
+            - name: Hello world
+              run: echo "Heloo world"
+            - name: Listar archivos
+              run: ls -lha
