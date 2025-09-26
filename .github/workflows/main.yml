@@ -1,3 +1,4 @@
+name: CI github actions
 on:
     push:
 jobs:
